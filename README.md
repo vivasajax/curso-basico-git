@@ -1,6 +1,6 @@
 # Esto es un titulo H1
 ## Esto es un titulo H3
-Esto es un texto descriptivo ** texto en negrilla ** *aja ja* 
+Esto es un texto descriptivo ** texto en negrilla ** *aja ja * * érsdasd *  * esto es un commit nuevo? *
  >Esto es un bloque de texto comentario 
  - item 1
  - item 2 
