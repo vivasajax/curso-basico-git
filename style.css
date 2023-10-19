@@ -1,7 +1,79 @@
-p{
-    front style-italic
+p {
+    font-style:italic; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.news {
+    background-color: blue;
 }
 
-.news-content { 
-    background-color: blue;
+h1{
+    border: solid 2px rgb(224, 28, 28);
+    border-top: solid 4px salmon;
+    border-bottom: salmon;
+    background-color: chocolate;
+    padding: 30px ;
+    text-align: center;
+}
+
+h2{ 
+    border: solid 2px rgb(221, 18, 177);
+    border-top: solid 4px rgb(192, 16, 84);
+    border-bottom: rgb(192, 16, 84);
+    background-color: rgb(250, 134, 134);
+    padding: 10px ;
+    text-align: center;
+}
+
+#prostitucion { border: solid 2px rgb(221, 18, 177);
+    border-top: solid 4px rgb(192, 16, 84);
+    border-bottom: rgb(192, 16, 84);
+    background-color: rgb(250, 134, 134);
+    padding: 10px ;
+}}
+/* Estilos generales para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+/* Estilos para el contenedor de noticias */
+.news-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos para los elementos de noticias */
+.news-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+}
+.peruanito {
+    text-align: center;
+    padding-left: 30%;
+    height: 500px; 
+}
+
+/* Estilos para los elementos de noticias con colores diferentes */
+.blue-bg {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+.green-bg {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+red-bg {
+    background-color: #FF5733;
+    color: #fff;
 }
